@@ -37,7 +37,7 @@ env:
   ECS_CLUSTER: ecs-demo-cluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: ecs-demo-task-revision5.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
+  CONTAINER_NAME: ecs-demo-container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
